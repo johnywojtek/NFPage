@@ -1,0 +1,26 @@
+{
+    "general": {
+        "search": "Search",
+        "shop": "Shop",
+        "support": "Contribute",
+        "download": "Download",
+        "aboutProject": "About project",
+        "contact": "Contact",
+        "aboutUs": "About us",
+        "rights": "All rights reserved",
+        "websiteMadeBy": "Website made by the company",
+        "privacyPolicy": "Privacy policy",
+        "searchIn": "Search In",
+        "getAddicted": "Get addicted to helping",
+        "spin": "Spin",
+        "contactTitle": "You don’t know who you should approach? Feel free to contact us",
+        "yourEmail": "Your e-mail address",
+        "help": "How can we help?",
+        "send": "Send",
+        "otherSites": "Other Websites",
+        "ourProjects": "Our projects",
+        "doneProjects": "You can read about the achieved projects on the Website",
+        "allProjectList": "All project's list",
+        "chooseProjekt": "All project's list"
+    }
+}

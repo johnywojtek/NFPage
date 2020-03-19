@@ -1,0 +1,16 @@
+{
+    "extends": ["airbnb", "airbnb/hooks", "prettier", "prettier/react"],
+    "globals": {
+        "document": true,
+        "window": true
+    },
+    "rules": {
+        "react/jsx-filename-extension": [1, { "extensions": [".js"] }],
+        "jsx-a11y/click-events-have-key-events": 0,
+        "no-shadow": "off",
+        "react/require-default-props": 0,
+        "no-nested-ternary": 0,
+        "jsx-a11y/no-static-element-interactions": 0,
+        "import/prefer-default-export": 0
+    }
+}

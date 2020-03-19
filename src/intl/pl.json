@@ -1,0 +1,26 @@
+{
+    "general": {
+        "search": "Szukaj",
+        "shop": "Sklep",
+        "support": "Wesprzyj",
+        "download": "Pobierz",
+        "aboutProject": "O projekcie",
+        "contact": "Kontakt",
+        "aboutUs": "O nas",
+        "rights": "Wszelkie prawa zastrzeżone",
+        "websiteMadeBy": "Strona zeralizowana przez firmę",
+        "privacyPolicy": "Polityka prywatności",
+        "searchIn": "Szukaj W",
+        "getAddicted": "Uzależnij się od pomagania",
+        "spin": "Zakręć",
+        "contactTitle": "Nie wiesz do kogo się zwrócić? Zapraszamy do kontaktu.",
+        "yourEmail": "Twój e-mail",
+        "help": "Jak możemy pomóc?",
+        "send": "Wyślij",
+        "otherSites": "Inne Strony",
+        "ourProjects": "Nasze projekty",
+        "doneProjects": "O zrealizowanych projektach możesz przeczytać na stronie",
+        "allProjectList": "Lista wszystkich projektów",
+        "chooseProjekt": "Wylosuj projekt lub wybierz z listy"
+    }
+}
