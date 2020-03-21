@@ -5,12 +5,14 @@ import Footer from '../components/Footer';
 import { pageData } from '../components/common/pageData';
 import Video from '../components/Video';
 import VideoLion from '../components/VideoLion';
-import Idea from '../components/Idea';
+import BuyInShop from '../components/BuyInShop';
 import SocialMedia from '../components/SocialMedia';
 import News from '../components/News';
 import NewsLetter from '../components/NewsLetter';
 import SupportFoundation from '../components/SupportFoundation';
 import Map from '../components/Map';
+import Donors from '../components/Donors';
+import Heading from '../components/common/Heading';
 
 const IndexPage = () => {
     // const data = useStaticQuery(graphql`
@@ -51,13 +53,13 @@ const IndexPage = () => {
     return (
         <>
             <Video />
-            <Idea />
-            <SocialMedia />
-            <News />
-            <NewsLetter />
-            <VideoLion />
-            <SupportFoundation />
-            <Map />
+            <Heading
+                title="Dołącz"
+                desc="Lorem ipsum dolor sit amet, consectetur eplos eklosi adipisifwcing elit, sed doio eiusmod tempor incididunt ut labore et dolore roipi magna aliqua. Ut enim adeop minim veeniam, quis nostruklad exercitation ullamico laboris nisi ut. "
+            />
+            <BuyInShop />
+            <Donors />
+
             <Footer />
         </>
     );

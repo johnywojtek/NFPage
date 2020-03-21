@@ -10,7 +10,7 @@ const Container = styled.div`
     background-color: ${({ theme }) => theme.white};
     width: 100vw;
     max-width: 100%;
-    margin-top: 200vh;
+
     top: 95vh;
     color: ${({ theme }) => theme.white};
     font-size: 30px;

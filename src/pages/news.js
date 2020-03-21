@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import NewsItem from '../common/NewsItem';
+import NewsItem from '../components/common/NewsItem';
 
 const Container = styled.div`
     max-width: 90rem;
@@ -19,10 +19,67 @@ const Title = styled.h3`
     border-bottom: 1px solid ${({ theme }) => theme.gray4};
 `;
 
-const News = () => {
+const IndexPage = () => {
     return (
         <Container>
             <Title>Aktualności</Title>
+            <NewsItem
+                title="Excepteur sint occaecat"
+                desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tristique id
+                        magna id tempor. Nam eu turpis orci. In vestibulum purus nec augue
+                        consequat, nec posuere sem fermentum. Suspendisse sit amet pharetra est, vel
+                        sodales dui. Pellentesque mattis non nisi ac mattis. Integer cursus justo
+                        urna, vitae sollicitudin metus pellentesque ac. Aliquam dictum risus et
+                        tellus faucibus porta."
+            />
+            <NewsItem
+                reversed
+                title="Excepteur sint occaecat"
+                desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tristique id
+                        magna id tempor. Nam eu turpis orci. In vestibulum purus nec augue
+                        consequat, nec posuere sem fermentum. Suspendisse sit amet pharetra est, vel
+                        sodales dui. Pellentesque mattis non nisi ac mattis. Integer cursus justo
+                        urna, vitae sollicitudin metus pellentesque ac. Aliquam dictum risus et
+                        tellus faucibus porta."
+            />
+            <NewsItem
+                title="Excepteur sint occaecat"
+                desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tristique id
+                        magna id tempor. Nam eu turpis orci. In vestibulum purus nec augue
+                        consequat, nec posuere sem fermentum. Suspendisse sit amet pharetra est, vel
+                        sodales dui. Pellentesque mattis non nisi ac mattis. Integer cursus justo
+                        urna, vitae sollicitudin metus pellentesque ac. Aliquam dictum risus et
+                        tellus faucibus porta."
+            />
+            <NewsItem
+                reversed
+                title="Excepteur sint occaecat"
+                desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tristique id
+                        magna id tempor. Nam eu turpis orci. In vestibulum purus nec augue
+                        consequat, nec posuere sem fermentum. Suspendisse sit amet pharetra est, vel
+                        sodales dui. Pellentesque mattis non nisi ac mattis. Integer cursus justo
+                        urna, vitae sollicitudin metus pellentesque ac. Aliquam dictum risus et
+                        tellus faucibus porta."
+            />
+            <NewsItem
+                title="Excepteur sint occaecat"
+                desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tristique id
+                        magna id tempor. Nam eu turpis orci. In vestibulum purus nec augue
+                        consequat, nec posuere sem fermentum. Suspendisse sit amet pharetra est, vel
+                        sodales dui. Pellentesque mattis non nisi ac mattis. Integer cursus justo
+                        urna, vitae sollicitudin metus pellentesque ac. Aliquam dictum risus et
+                        tellus faucibus porta."
+            />
+            <NewsItem
+                reversed
+                title="Excepteur sint occaecat"
+                desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tristique id
+                        magna id tempor. Nam eu turpis orci. In vestibulum purus nec augue
+                        consequat, nec posuere sem fermentum. Suspendisse sit amet pharetra est, vel
+                        sodales dui. Pellentesque mattis non nisi ac mattis. Integer cursus justo
+                        urna, vitae sollicitudin metus pellentesque ac. Aliquam dictum risus et
+                        tellus faucibus porta."
+            />
             <NewsItem
                 title="Excepteur sint occaecat"
                 desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tristique id
@@ -84,4 +141,4 @@ const News = () => {
     );
 };
 
-export default News;
+export default IndexPage;

@@ -8,7 +8,7 @@ export const subpageLinks = [
         text: 'Projekty',
     },
     {
-        path: '/',
+        path: '/join',
         text: 'Dołącz',
     },
     {
