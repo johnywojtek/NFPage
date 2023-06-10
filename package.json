@@ -7,7 +7,7 @@
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.7",
     "final-form": "^4.18.7",
-    "gatsby": "^2.19.19",
+    "gatsby": "^4.25.7",
     "gatsby-image": "^2.2.41",
     "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-intl": "^0.3.2",
